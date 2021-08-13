@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.alineado{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alineadouno{
+    display: flex;
+    flex-direction: row;
+}
+
+.espacio-icono{
+    margin-right: 3px;
+}
+
+.redondeado{
+    border-radius: 5px;
+}
+
+.thin{
+    font-weight: thin;
+}
+
+.regular{
+    font-weight: bolder;
+}
+
+.tamaño-letra-pequeño{
+    font-size: 12px;
+}
+
+.icono{
+    font-size: 50px;
+}
+
+.color{
+    color: white;
+}
+
+.espacio-largao{
+    margin-right: 10%;
+}
+
+.espacio{
+    margin-right: 4%;
+}
+
+.letra-22{
+    font-size: 22px;
+}
+
+.letra-grande{
+    font-size: 35px;
+    margin: 0cm;
+}
+
+.margen-izquierda{
+    margin-left: 20%;
+}
+
+.margen-izquierda-dos{
+    margin-left: 50%;
+}
+
+.margen-derecha{
+    margin-right: 45%;
+}
+
+.margen-arriba{
+    margin-top: 5%;
+}
+
+.margen-flecha{
+    margin-left: 75%;
+}
+
+.margen-arriba-cero{
+    margin-top: 0;
+}
+
+.margen-abajo-cero{
+    margin-bottom: 0;
+}
+
+/*.margen-45{
+    margin-top: 9%;
+}*/
+
+.general{
+    background-color:rgb(252, 252, 252);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro-azul{
+    background-color: darkslateblue;
+   /* background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2017/01/216898-consejos-comprar-ordenador-sobremesa.jpg);
+    mask-repeat: no-repeat;
+    background-size: cover;*/
+    height: 550px;
+    width: 100%;
+    position: absolute;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+    border-bottom: rgba(255, 255, 255, 0.363) 0.5px solid;
+}
+
+.margen-boarr{
+    border: white solid 0.7px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.margen-boarr i{
+    color:white;
+}
+
+.boton-arriba{
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0) ;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.boton-abajo{
+    width: 100%;
+    background-color: rgb(241, 163, 60);
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.foto-perfil{
+    width: 55px;
+    height: 55px;
+    background-image: url(https://i.pinimg.com/474x/c6/8f/47/c68f47e3c3fd612dceea4a4c47053fe0.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.alineadodos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-perfil{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-amarillo{
+    font-size: 25px;
+    color: rgb(207, 194, 2);
+}
+
+@media screen and (min-width: 300px) {
+    .cuadro-azul{
+        width: 100%;
+    }
+}
